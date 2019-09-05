@@ -2,7 +2,7 @@
 layout: post
 title: Understanding Unix/Linux Programing Chapter 3 lesson 1
 subtitle: 学习日记
-gh-repo: daattali/beautiful-jekyll
+gh-repo: l33klin/understanding-unix-linux-programming
 gh-badge: [star, fork, follow]
 tags: [学习日记, UULP]
 comments: true
