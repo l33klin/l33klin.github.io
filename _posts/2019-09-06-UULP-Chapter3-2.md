@@ -17,7 +17,7 @@ published: true
 今天回来稍微晚了一点，在家里忙活了一下再打两把游戏就十二点多了，洗完澡来到电脑前都一点多了，还是要多休息呀，要不然一天的工作效率都很低。
 
 ### 今天的知识点：
-- **获取文件信息的方法：** 在目录文件中的记录中没有文件信息，那么文件信息保存在哪？需要怎么读到呢？
+- **获取文件信息的方法：** 在目录文件中的记录中没有文件信息，[那么文件信息保存在哪？](https://stackoverflow.com/questions/57844005/where-file-status-info-actually-store)需要怎么读到呢？
     - 获取文件信息的方法：可以在<sys/stat.h>中查看，MacOS中使用`man 2 stat`可以查到帮助文档。<sys/stat.h>的文档可以查看[这里](http://man7.org/linux/man-pages/man2/stat.2.html)，要注意在不同系统上会有一些差别，在mac帮助文档查看到的又大不一样。
     - 
 - **stat数据结构：**
