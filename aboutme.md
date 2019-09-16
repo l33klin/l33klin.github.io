@@ -10,7 +10,7 @@ My name is Jian Li. A test engineer of a IT factory. I have the following qualit
 - Like video games, such as DOTA, MU.
 - Loved to buy books, technology, psychology, economics.
 - Fans of [Irvin D. Yalom](https://en.wikipedia.org/wiki/Irvin_D._Yalom). Loved all books he write.
-- Bachelor degree in EE, working in internet enterprises.
+- Master of Telecommunication Engineering, working in internet enterprises.
 
 What else do you need?
 
