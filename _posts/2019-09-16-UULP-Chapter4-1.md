@@ -26,7 +26,7 @@ published: true
     ```bash
     # dumpe2fs -h /dev/sda1  # 这里认为/dev/sda1为根目录挂载的磁盘
     ```
-    MacOS暂时没找到查看超级块信息的方法，也有可能MacOS上使用了其他的文件系统。注：macOS中使用`mkntfs`创建一个NTFS的文件系统。
+    MacOS暂时没找到查看超级块信息的方法，也有可能MacOS上使用了其他的文件系统。注：macOS的文件系统，[参考](https://en.wikipedia.org/wiki/Apple_File_System)。
     - inode表：每个文件都有一些属性，如大小、文件所有者和最近修改时间等，这些性质被记录在一个称为inode的结构中。所有的inode信息都有相同的大小，inode表就是这些结构的一个列表。`怎么查看inode信息呢？`
     inode表中的每一个inode都通过位置来标识。如标识为2的inode就是inode表中第三个位置的inode。`系统是如何通过inode标识来找到真实的inode存放的位置呢？`
     - 数据区：文件的内容保存在这个区域，磁盘的每个块大小是一样的。如果文件内容超过了一个块的大小，则会保存在多个磁盘块中，`那么一个大文件很容易就保存在上千个磁盘块中，系统是如何追踪这些磁盘块的呢？`
